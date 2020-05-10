@@ -1,11 +1,10 @@
 const mongoose = require('mongoose');
-const Joi = require('@hapi/joi');
 const genres = require('./routes/genres.js')
 const express = require('express');
 const app = express();
 
 mongoose
-	.connect('mongodb://localhost/vividmovie')
+	.connect('mongodb://localhost/vivid-movie')
 	.then(() => console.log('connected'))
 	.catch((err) => console.error('cannot connect', err));
 
