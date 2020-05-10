@@ -2,4 +2,4 @@
 
 # create a list of movie genres
 
-http://vividmovie.com/api/genres
+# http://vividmovie.com/api/genres
